@@ -92,9 +92,15 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 **Static Search** - [Pagefind](https://pagefind.app/)  
 **Icons** - [Tablers](https://tabler-icons.io/)  
 **Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
+**Deployment** - [GitHub Pages](https://pages.github.com/)
 **Linting** - [ESLint](https://eslint.org)  
 **Dynamic OG images** - [Satori](https://github.com/vercel/satori) + [Sharp](https://sharp.pixelplumbing.com/) + [Astro Fonts](https://docs.astro.build/en/guides/fonts/)
+
+## 🚀 Deployment
+
+Pushing to `main` runs the GitHub Pages deployment workflow. The site is configured for
+the custom domain `https://blog.gincat.dev/`; its DNS must point the `blog` subdomain
+to `guilleinc.github.io`.
 
 ## 👨🏻‍💻 Running Locally
 
